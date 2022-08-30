@@ -1,0 +1,47 @@
+body {
+  background: rgb(201, 201, 69);
+}
+body header, body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main {
+  display: flex;
+  margin: auto;
+  padding: 20px;
+}
+body main .elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(218, 216, 216);
+  max-width: 300px;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  padding: 10px;
+}
+body main .elements img {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  border-radius: 5px;
+  max-width: 180px;
+  width: 100%;
+}
+body main .elements button {
+  font-size: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+  header div {
+    text-align: center;
+    min-width: 200px;
+  }
+  img {
+    min-width: 180px;
+  }
+  .elements {
+    min-width: 200px;
+  }
+}/*# sourceMappingURL=style.css.map */

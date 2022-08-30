@@ -32,6 +32,11 @@ body main .elements img {
 body main .elements button {
   font-size: 20px;
 }
+body .list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 @media (min-width: 200px) and (max-width: 500px) {
   header div {
